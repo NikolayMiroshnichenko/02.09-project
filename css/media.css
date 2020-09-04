@@ -90,6 +90,15 @@
     }
     .header {
         align-items: center;
+        padding: 20px 0 50px 0
+    }
+    .header-date__title {
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    .header-date__date {
+        margin: 0;
     }
     .main-title {
         position: relative;
