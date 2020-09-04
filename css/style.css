@@ -226,6 +226,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     list-style-type: none;
+    padding: 0;
 }
 .programs-list__item {
     position: relative;

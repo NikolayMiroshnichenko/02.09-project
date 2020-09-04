@@ -1,0 +1,153 @@
+@media (max-width: 1240px) {
+    .container {
+        width: 968px;
+    }
+    .header-date {
+        margin-right: 10px;
+    }
+    .speker-img__name {
+        white-space: nowrap;
+    }
+    .form-img {
+        width: 270px;
+        height: 270px;
+        left: -120px;
+        top: -120px;
+    }
+    .programs-list__item {
+        width: 280px;
+    }
+}
+@media (max-width: 990px) {
+    .container {
+        width: 720px;
+    }
+    .main-wrapper {
+        height: auto;
+        background-image: none;
+        background-color: #548cf9;
+        padding-bottom: 40px;
+    }
+    .form-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .main-img {
+        display: none;
+    }
+    .form {
+        margin: 0 auto;
+    }
+    .main-img {
+        position: static;
+    }
+    .main-title {
+        font-size: 42px;
+        text-align: center;
+    }
+    .main-title {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .form-img {
+        left: 0;
+        top: -100px;
+    }
+    .speker-list {
+        flex-direction: column;
+    }
+    .speker-list__content {
+        width: 100%;
+    }
+    .speker-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .speker-title {
+        font-size: 42px;
+    }
+    .speker-content__title {
+        font-size: 30px;
+    }
+    .speker-content__text {
+        font-size: 20px;
+    }
+    .speker-content__title-list {
+        font-size: 30px;
+    }
+    .speker-content-list li {
+        font-size: 20px;
+    }
+    .speker-content__icon {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 740px) {
+    .container {
+        width: 90%;
+    }
+    .header {
+        align-items: center;
+    }
+    .main-title {
+        position: relative;
+        font-size: 28px;
+        z-index: 999;
+    }
+    .form-wrapper {
+        width: 100%;
+    }
+    .form {
+        box-sizing: border-box;
+    }
+    .form-text {
+        padding: 0;
+    }
+    .form-img {
+        top: -130px;
+        left: -100px;
+    }
+    .programs-list__item {
+        width: 90%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .speker-title {
+        font-size: 30px;
+    }
+    .speker-img {
+        width: 100%;
+    }
+    .speker-img__name {
+        left: 50%;
+    }
+    .speker-content__title-list,
+    .speker-content__title {
+        font-size: 20px;
+    }
+    .speker-content-list li,
+    .speker-content__text {
+        font-size: 16px;
+    }
+    .speker-content-list li {
+        margin-bottom: 10px;
+    }
+    .footer-list__item {
+        display: block;
+        text-align: center;
+    }
+    .footer-text {
+        padding: 0;
+    }
+}
+@media (max-width: 340px) {
+    .form {
+        width: 100%;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+}
+
