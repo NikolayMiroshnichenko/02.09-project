@@ -1,7 +1,9 @@
+@import '../font/stylesheet.css';
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Gilroy';
 }
 .main-wrapper {
     width: 100%;
@@ -60,6 +62,7 @@ body {
     color: #ffffff;
     width: 60%;
     margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .main-img {
     position: absolute;
@@ -220,6 +223,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .programs-list {
     display: flex;
@@ -260,6 +264,7 @@ body {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .speker-list {
     display: flex;
@@ -353,7 +358,7 @@ body {
 .speker-btn {
     display: block;
     position: relative;
-    width: 240px;
+    width: 200px;
     padding: 16px 20px 16px 40px;
     text-decoration: none;
     color: #548cf9;
